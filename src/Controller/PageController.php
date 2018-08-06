@@ -10,5 +10,6 @@ class PageController {
 	{
 
 		return new Response('salut les gens');
+		fsdfv
 	}
 }
