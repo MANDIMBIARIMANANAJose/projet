@@ -19,7 +19,7 @@ class BlogController extends Controller
     /**
      * @Route("/home", name="home")
      */
-    public function home(){
+    public function homeAction(){
         return $this->render('blog/home.html.twig');
     }
 }
